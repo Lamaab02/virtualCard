@@ -1,0 +1,116 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+  }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-img{
+    height: 317px;
+    border-radius: 10px 10px 0 0; 
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container{
+    white-space: 0;
+    background-color: #1A1B21;
+    border-radius: 10px 10px 10px 10px; 
+ }
+
+.content{
+    padding-top: 20px;
+    height: 399px;
+    width: 314px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+
+}
+
+.main-name{
+    letter-spacing: 1px;;
+    font-size: 25px;
+}
+
+.main-position{
+    color: #F3BF99;
+    font-weight: 100;
+    padding: 5px;
+    letter-spacing: -1px;
+    font-size: 12.8px;
+}
+
+.website{
+    font-size: 10.24px;
+    font-weight: lighter;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.buttons > button{
+    width: 115px;
+    height: 34px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+}
+
+.email{
+    background-color: white;
+}
+.linkedin, .linkedin>a{
+    background-color: #5093E2;
+    color: white;
+}
+
+.about, .interests{
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+}
+
+.about-name, .interests-name{
+    font-size: 16px;
+}
+
+.about-text, .interests-text{
+    padding-top: 10px;
+    color: #DCDCDC;
+    font-size: 10.24px;
+}
+
+a{
+    color: #374151;
+    text-decoration: none;
+}
+
+.main-footer{
+    background-color: #161619;
+    height: 64px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.github, .insta, .twitter{
+    padding-top: 10px;
+    size: 25px;
+    color: #918E9B;
+}
