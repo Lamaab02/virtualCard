@@ -1,7 +1,7 @@
 import About from "./About"
 import Buttons from "./Buttons"
 import Footer from "./Footer"
-import Interests from "./interests"
+import Interests from "./Interests"
 
 function Main() {
   return (
