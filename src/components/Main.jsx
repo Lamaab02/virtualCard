@@ -7,7 +7,7 @@ function Main() {
   return (
     <main>
         <div className="main-container">
-        <img className="main-img" src="./../me.jpeg"></img>
+        <img className="main-img" src="./me.jpeg"></img>
         <div className="content">
             <h2 className="main-name">Lia Abed</h2>
             <h4 className="main-position">Full Stack Developer</h4>
